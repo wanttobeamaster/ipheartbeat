@@ -2,6 +2,6 @@
 
 connect_net
 
-$GOPATH/src/github.com/wanttobeamaster/ipheartbeat/client/main
+/home/GoFile/src/github.com/wanttobeamaster/ipheartbeat/client/main
 
 breaknet
