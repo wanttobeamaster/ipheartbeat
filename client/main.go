@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"net"
 	"os"
+	"time"
 
 	"github.com/fagongzi/log"
 )
@@ -42,7 +43,29 @@ func main() {
 	}
 	log.Infof("Locate Ip = [%v]", localAddr)
 
-	// Create tcp connection
+	SendHeartbeat(hostname, localAddr)
+}
+
+func SendHeartbeat(hostname string, localAddr string) {
+	FlagC := make(chan bool)
+	ticker := time.NewTicker(time.Second * 30)
+
+	go handleWriterConnection(FlagC, hostname, localAddr)
+
+	for {
+		select {
+		case <-FlagC:
+			ticker.Stop()
+			return
+		case <-ticker.C:
+			return
+		default:
+		}
+	}
+
+}
+
+func handleWriterConnection(FlagC chan bool, hostname string, localAddr string) {
 	addr, err := net.ResolveTCPAddr("tcp4", target)
 	conn, err := net.DialTCP("tcp4", nil, addr)
 	if err != nil {
@@ -68,4 +91,7 @@ func main() {
 		return
 	}
 	log.Infof("Sent heartbeat succeed!")
+
+	FlagC <- true
+	close(FlagC)
 }
