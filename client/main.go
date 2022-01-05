@@ -9,7 +9,7 @@ import (
 	"github.com/fagongzi/log"
 )
 
-const target = "127.0.0.1:6203"
+const target = "121.37.71.250:6203"
 
 func main() {
 	// Init log

@@ -6,7 +6,7 @@ import (
 	"github.com/fagongzi/log"
 )
 
-const target = "0.0.0.0:6203"
+const target = "192.168.0.16:6203"
 
 func handleClient(conn net.Conn) {
 	defer conn.Close()
