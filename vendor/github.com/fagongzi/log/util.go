@@ -5,8 +5,8 @@ import (
 )
 
 var (
-	crashLog    = flag.String("log-crash", "./crash.log", "The crash log file.")
-	logFile     = flag.String("log-file", "./run-log", "The external log file. Default log to console.")
+	crashLog    = flag.String("log-crash", "/tmp/crash.log", "The crash log file.")
+	logFile     = flag.String("log-file", "/tmp/run-log", "The external log file. Default log to console.")
 	logLevel    = flag.String("log-level", "info", "The log level, default is info")
 	logRotateBy = flag.String("log-rotate-by", "day", "The log rotate by [day|hour], default is day")
 	logCount    = flag.Int("log-count", 10, "Count of log files, default is 10")
