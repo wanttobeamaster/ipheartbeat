@@ -1,0 +1,168 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/GoFile/src/gocourse/ipheartbeat/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/f5a54f73/
+Cfg	vendor/github.com/fagongzi/log/util.go	/^type Cfg struct {$/;"	s	package:log
+CrashLog	vendor/github.com/fagongzi/log/crash_darwin.go	/^func CrashLog(file string) {$/;"	f	package:log
+CrashLog	vendor/github.com/fagongzi/log/crash_unix.go	/^func CrashLog(file string) {$/;"	f	package:log
+CrashLog	vendor/github.com/fagongzi/log/crash_win.go	/^func CrashLog(file string) {$/;"	f	package:log
+Debug	vendor/github.com/fagongzi/log/log.go	/^	Debug(v ...interface{})$/;"	n	interface:log.Logger
+Debug	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) Debug(v ...interface{}) {$/;"	f	struct:log.logger
+Debug	vendor/github.com/fagongzi/log/log.go	/^func Debug(v ...interface{}) {$/;"	f	package:log
+Debug	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) Debug(v ...interface{}) {$/;"	f	struct:log.prefixLoggerWrapper
+DebugEnabled	vendor/github.com/fagongzi/log/log.go	/^	DebugEnabled() bool$/;"	n	interface:log.Logger	typeref:typename:bool
+DebugEnabled	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) DebugEnabled() bool {$/;"	f	struct:log.logger	typeref:typename:bool
+DebugEnabled	vendor/github.com/fagongzi/log/log.go	/^func DebugEnabled() bool {$/;"	f	package:log	typeref:typename:bool
+DebugEnabled	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) DebugEnabled() bool {$/;"	f	struct:log.prefixLoggerWrapper	typeref:typename:bool
+Debugf	vendor/github.com/fagongzi/log/log.go	/^	Debugf(format string, v ...interface{})$/;"	n	interface:log.Logger
+Debugf	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) Debugf(format string, v ...interface{}) {$/;"	f	struct:log.logger
+Debugf	vendor/github.com/fagongzi/log/log.go	/^func Debugf(format string, v ...interface{}) {$/;"	f	package:log
+Debugf	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) Debugf(format string, v ...interface{}) {$/;"	f	struct:log.prefixLoggerWrapper
+Error	vendor/github.com/fagongzi/log/log.go	/^	Error(v ...interface{})$/;"	n	interface:log.Logger
+Error	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) Error(v ...interface{}) {$/;"	f	struct:log.logger
+Error	vendor/github.com/fagongzi/log/log.go	/^func Error(v ...interface{}) {$/;"	f	package:log
+Error	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) Error(v ...interface{}) {$/;"	f	struct:log.prefixLoggerWrapper
+ErrorEnabled	vendor/github.com/fagongzi/log/log.go	/^	ErrorEnabled() bool$/;"	n	interface:log.Logger	typeref:typename:bool
+ErrorEnabled	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) ErrorEnabled() bool {$/;"	f	struct:log.logger	typeref:typename:bool
+ErrorEnabled	vendor/github.com/fagongzi/log/log.go	/^func ErrorEnabled() bool {$/;"	f	package:log	typeref:typename:bool
+ErrorEnabled	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) ErrorEnabled() bool {$/;"	f	struct:log.prefixLoggerWrapper	typeref:typename:bool
+Errorf	vendor/github.com/fagongzi/log/log.go	/^	Errorf(format string, v ...interface{})$/;"	n	interface:log.Logger
+Errorf	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) Errorf(format string, v ...interface{}) {$/;"	f	struct:log.logger
+Errorf	vendor/github.com/fagongzi/log/log.go	/^func Errorf(format string, v ...interface{}) {$/;"	f	package:log
+Errorf	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) Errorf(format string, v ...interface{}) {$/;"	f	struct:log.prefixLoggerWrapper
+Fatal	vendor/github.com/fagongzi/log/log.go	/^	Fatal(v ...interface{})$/;"	n	interface:log.Logger
+Fatal	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) Fatal(v ...interface{}) {$/;"	f	struct:log.logger
+Fatal	vendor/github.com/fagongzi/log/log.go	/^func Fatal(v ...interface{}) {$/;"	f	package:log
+Fatal	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) Fatal(v ...interface{}) {$/;"	f	struct:log.prefixLoggerWrapper
+FatalEnabled	vendor/github.com/fagongzi/log/log.go	/^	FatalEnabled() bool$/;"	n	interface:log.Logger	typeref:typename:bool
+FatalEnabled	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) FatalEnabled() bool {$/;"	f	struct:log.logger	typeref:typename:bool
+FatalEnabled	vendor/github.com/fagongzi/log/log.go	/^func FatalEnabled() bool {$/;"	f	package:log	typeref:typename:bool
+FatalEnabled	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) FatalEnabled() bool {$/;"	f	struct:log.prefixLoggerWrapper	typeref:typename:bool
+Fatalf	vendor/github.com/fagongzi/log/log.go	/^	Fatalf(format string, v ...interface{})$/;"	n	interface:log.Logger
+Fatalf	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) Fatalf(format string, v ...interface{}) {$/;"	f	struct:log.logger
+Fatalf	vendor/github.com/fagongzi/log/log.go	/^func Fatalf(format string, v ...interface{}) {$/;"	f	package:log
+Fatalf	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) Fatalf(format string, v ...interface{}) {$/;"	f	struct:log.prefixLoggerWrapper
+GetLogLevel	vendor/github.com/fagongzi/log/log.go	/^func GetLogLevel() Level {$/;"	f	package:log	typeref:typename:Level
+Info	vendor/github.com/fagongzi/log/log.go	/^	Info(v ...interface{})$/;"	n	interface:log.Logger
+Info	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) Info(v ...interface{}) {$/;"	f	struct:log.logger
+Info	vendor/github.com/fagongzi/log/log.go	/^func Info(v ...interface{}) {$/;"	f	package:log
+Info	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) Info(v ...interface{}) {$/;"	f	struct:log.prefixLoggerWrapper
+InfoEnabled	vendor/github.com/fagongzi/log/log.go	/^	InfoEnabled() bool$/;"	n	interface:log.Logger	typeref:typename:bool
+InfoEnabled	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) InfoEnabled() bool {$/;"	f	struct:log.logger	typeref:typename:bool
+InfoEnabled	vendor/github.com/fagongzi/log/log.go	/^func InfoEnabled() bool {$/;"	f	package:log	typeref:typename:bool
+InfoEnabled	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) InfoEnabled() bool {$/;"	f	struct:log.prefixLoggerWrapper	typeref:typename:bool
+Infof	vendor/github.com/fagongzi/log/log.go	/^	Infof(format string, v ...interface{})$/;"	n	interface:log.Logger
+Infof	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) Infof(format string, v ...interface{}) {$/;"	f	struct:log.logger
+Infof	vendor/github.com/fagongzi/log/log.go	/^func Infof(format string, v ...interface{}) {$/;"	f	package:log
+Infof	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) Infof(format string, v ...interface{}) {$/;"	f	struct:log.prefixLoggerWrapper
+InitLog	vendor/github.com/fagongzi/log/util.go	/^func InitLog() {$/;"	f	package:log
+Ldate	vendor/github.com/fagongzi/log/log.go	/^	Ldate = log.Ldate$/;"	c	package:log
+Level	vendor/github.com/fagongzi/log/log.go	/^	Level int$/;"	t	package:log	typeref:typename:int
+Llongfile	vendor/github.com/fagongzi/log/log.go	/^	Llongfile = log.Llongfile$/;"	c	package:log
+Lmicroseconds	vendor/github.com/fagongzi/log/log.go	/^	Lmicroseconds = log.Lmicroseconds$/;"	c	package:log
+LogAll	vendor/github.com/fagongzi/log/log.go	/^	LogAll = LogDebug$/;"	c	package:log
+LogDebug	vendor/github.com/fagongzi/log/log.go	/^	LogDebug = LogInfo | Level(debugLevel)$/;"	c	package:log
+LogError	vendor/github.com/fagongzi/log/log.go	/^	LogError = LogFatal | Level(errorLevel)$/;"	c	package:log
+LogFatal	vendor/github.com/fagongzi/log/log.go	/^	LogFatal = LogNone | Level(fatalLevel)$/;"	c	package:log
+LogFile	vendor/github.com/fagongzi/log/util.go	/^	LogFile  string$/;"	m	struct:log.Cfg	typeref:typename:string
+LogInfo	vendor/github.com/fagongzi/log/log.go	/^	LogInfo = LogWarn | Level(infoLevel)$/;"	c	package:log
+LogLevel	vendor/github.com/fagongzi/log/util.go	/^	LogLevel string$/;"	m	struct:log.Cfg	typeref:typename:string
+LogNone	vendor/github.com/fagongzi/log/log.go	/^	LogNone = Level(0x0)$/;"	c	package:log
+LogWarn	vendor/github.com/fagongzi/log/log.go	/^	LogWarn = LogError | Level(warnLevel)$/;"	c	package:log
+Logger	vendor/github.com/fagongzi/log/log.go	/^type Logger interface {$/;"	i	package:log
+Lshortfile	vendor/github.com/fagongzi/log/log.go	/^	Lshortfile = log.Lshortfile$/;"	c	package:log
+LstdFlags	vendor/github.com/fagongzi/log/log.go	/^	LstdFlags = log.LstdFlags$/;"	c	package:log
+Ltime	vendor/github.com/fagongzi/log/log.go	/^	Ltime = log.Ltime$/;"	c	package:log
+NewLoggerWithPrefix	vendor/github.com/fagongzi/log/log_prefix.go	/^func NewLoggerWithPrefix(prefix string) Logger {$/;"	f	package:log	typeref:typename:Logger
+SetFlags	vendor/github.com/fagongzi/log/log.go	/^func SetFlags(flags int) {$/;"	f	package:log
+SetHighlighting	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) SetHighlighting(highlighting bool) {$/;"	f	struct:log.logger
+SetHighlighting	vendor/github.com/fagongzi/log/log.go	/^func SetHighlighting(highlighting bool) {$/;"	f	package:log
+SetLevel	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) SetLevel(level Level) {$/;"	f	struct:log.logger
+SetLevel	vendor/github.com/fagongzi/log/log.go	/^func SetLevel(level Level) {$/;"	f	package:log
+SetLevelByString	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) SetLevelByString(level string) {$/;"	f	struct:log.logger
+SetLevelByString	vendor/github.com/fagongzi/log/log.go	/^func SetLevelByString(level string) {$/;"	f	package:log
+SetLogCount	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) SetLogCount(value int) {$/;"	f	struct:log.logger
+SetLogCount	vendor/github.com/fagongzi/log/log.go	/^func SetLogCount(value int) {$/;"	f	package:log
+SetOutput	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) SetOutput(out io.Writer) {$/;"	f	struct:log.logger
+SetOutput	vendor/github.com/fagongzi/log/log.go	/^func SetOutput(out io.Writer) {$/;"	f	package:log
+SetOutputByName	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) SetOutputByName(path string) error {$/;"	f	struct:log.logger	typeref:typename:error
+SetOutputByName	vendor/github.com/fagongzi/log/log.go	/^func SetOutputByName(path string) error {$/;"	f	package:log	typeref:typename:error
+SetRotateByDay	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) SetRotateByDay() {$/;"	f	struct:log.logger
+SetRotateByDay	vendor/github.com/fagongzi/log/log.go	/^func SetRotateByDay() {$/;"	f	package:log
+SetRotateByHour	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) SetRotateByHour() {$/;"	f	struct:log.logger
+SetRotateByHour	vendor/github.com/fagongzi/log/log.go	/^func SetRotateByHour() {$/;"	f	package:log
+Type	vendor/github.com/fagongzi/log/log.go	/^	Type int$/;"	t	package:log	typeref:typename:int
+WarnEnabled	vendor/github.com/fagongzi/log/log.go	/^	WarnEnabled() bool$/;"	n	interface:log.Logger	typeref:typename:bool
+WarnEnabled	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) WarnEnabled() bool {$/;"	f	struct:log.logger	typeref:typename:bool
+WarnEnabled	vendor/github.com/fagongzi/log/log.go	/^func WarnEnabled() bool {$/;"	f	package:log	typeref:typename:bool
+WarnEnabled	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) WarnEnabled() bool {$/;"	f	struct:log.prefixLoggerWrapper	typeref:typename:bool
+Warning	vendor/github.com/fagongzi/log/log.go	/^	Warning(v ...interface{})$/;"	n	interface:log.Logger
+Warning	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) Warning(v ...interface{}) {$/;"	f	struct:log.logger
+Warning	vendor/github.com/fagongzi/log/log.go	/^func Warning(v ...interface{}) {$/;"	f	package:log
+Warning	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) Warning(v ...interface{}) {$/;"	f	struct:log.prefixLoggerWrapper
+Warningf	vendor/github.com/fagongzi/log/log.go	/^	Warningf(format string, v ...interface{})$/;"	n	interface:log.Logger
+Warningf	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) Warningf(format string, v ...interface{}) {$/;"	f	struct:log.logger
+Warningf	vendor/github.com/fagongzi/log/log.go	/^func Warningf(format string, v ...interface{}) {$/;"	f	package:log
+Warningf	vendor/github.com/fagongzi/log/log_prefix.go	/^func (l *prefixLoggerWrapper) Warningf(format string, v ...interface{}) {$/;"	f	struct:log.prefixLoggerWrapper
+_log	vendor/github.com/fagongzi/log/log.go	/^	_log         *log.Logger$/;"	m	struct:log.logger	typeref:typename:*log.Logger
+crashLog	vendor/github.com/fagongzi/log/util.go	/^	crashLog    = flag.String("log-crash", ".\/crash.log", "The crash log file.")$/;"	v	package:log
+dailyRolling	vendor/github.com/fagongzi/log/log.go	/^	dailyRolling bool$/;"	m	struct:log.logger	typeref:typename:bool
+debugLevel	vendor/github.com/fagongzi/log/log.go	/^	debugLevel = Type(0x10)$/;"	c	package:log
+defaultLog	vendor/github.com/fagongzi/log/log.go	/^var defaultLog = new()$/;"	v	package:log
+doRotate	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) doRotate(suffix string) error {$/;"	f	struct:log.logger	typeref:typename:error
+errorLevel	vendor/github.com/fagongzi/log/log.go	/^	errorLevel = Type(0x2)$/;"	c	package:log
+fatalLevel	vendor/github.com/fagongzi/log/log.go	/^	fatalLevel = Type(0x1)$/;"	c	package:log
+fd	vendor/github.com/fagongzi/log/log.go	/^	fd        *os.File$/;"	m	struct:log.logger	typeref:typename:*os.File
+fileName	vendor/github.com/fagongzi/log/log.go	/^	fileName  string$/;"	m	struct:log.logger	typeref:typename:string
+formatTimeDay	vendor/github.com/fagongzi/log/log.go	/^	formatTimeDay  string = "20060102"$/;"	c	package:log	typeref:typename:string
+formatTimeHour	vendor/github.com/fagongzi/log/log.go	/^	formatTimeHour string = "2006010215"$/;"	c	package:log	typeref:typename:string
+genDayTime	vendor/github.com/fagongzi/log/log.go	/^func genDayTime(t time.Time) string {$/;"	f	package:log	typeref:typename:string
+genHourTime	vendor/github.com/fagongzi/log/log.go	/^func genHourTime(t time.Time) string {$/;"	f	package:log	typeref:typename:string
+highlighting	vendor/github.com/fagongzi/log/log.go	/^	highlighting bool$/;"	m	struct:log.logger	typeref:typename:bool
+hourRolling	vendor/github.com/fagongzi/log/log.go	/^	hourRolling  bool$/;"	m	struct:log.logger	typeref:typename:bool
+infoLevel	vendor/github.com/fagongzi/log/log.go	/^	infoLevel  = Type(0x8)$/;"	c	package:log
+init	vendor/github.com/fagongzi/log/log.go	/^func init() {$/;"	f	package:log
+isLevelEnabled	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) isLevelEnabled(target Type) bool {$/;"	f	struct:log.logger	typeref:typename:bool
+kernel32	vendor/github.com/fagongzi/log/crash_win.go	/^	kernel32         = syscall.MustLoadDLL("kernel32.dll")$/;"	v	package:log
+l	vendor/github.com/fagongzi/log/log_prefix.go	/^	l      *logger$/;"	m	struct:log.prefixLoggerWrapper	typeref:typename:*logger
+level	vendor/github.com/fagongzi/log/log.go	/^	level        Level$/;"	m	struct:log.logger	typeref:typename:Level
+lock	vendor/github.com/fagongzi/log/log.go	/^	lock sync.Mutex$/;"	m	struct:log.logger	typeref:typename:sync.Mutex
+log	vendor/github.com/fagongzi/log/README.md	/^# log$/;"	c
+log	vendor/github.com/fagongzi/log/crash_darwin.go	/^package log$/;"	p
+log	vendor/github.com/fagongzi/log/crash_unix.go	/^package log$/;"	p
+log	vendor/github.com/fagongzi/log/crash_win.go	/^package log$/;"	p
+log	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) log(t Type, v ...interface{}) {$/;"	f	struct:log.logger
+log	vendor/github.com/fagongzi/log/log.go	/^package log$/;"	p
+log	vendor/github.com/fagongzi/log/log_prefix.go	/^package log$/;"	p
+log	vendor/github.com/fagongzi/log/util.go	/^package log$/;"	p
+logCount	vendor/github.com/fagongzi/log/log.go	/^	logCount int$/;"	m	struct:log.logger	typeref:typename:int
+logCount	vendor/github.com/fagongzi/log/util.go	/^	logCount    = flag.Int("log-count", 10, "Count of log files, default is 10")$/;"	v	package:log
+logFile	vendor/github.com/fagongzi/log/util.go	/^	logFile     = flag.String("log-file", "", "The external log file. Default log to console.")$/;"	v	package:log
+logHigh	vendor/github.com/fagongzi/log/util.go	/^	logHigh     = flag.Bool("log-high", false, "The log highlighting")$/;"	v	package:log
+logLevel	vendor/github.com/fagongzi/log/util.go	/^	logLevel    = flag.String("log-level", "info", "The log level, default is info")$/;"	v	package:log
+logRotateBy	vendor/github.com/fagongzi/log/util.go	/^	logRotateBy = flag.String("log-rotate-by", "day", "The log rotate by [day|hour], default is day/;"	v	package:log
+logSuffix	vendor/github.com/fagongzi/log/log.go	/^	logSuffix string$/;"	m	struct:log.logger	typeref:typename:string
+logTypeToString	vendor/github.com/fagongzi/log/log.go	/^func logTypeToString(t Type) (string, string) {$/;"	f	package:log	typeref:typename:(string, string)
+logWithPrefix	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) logWithPrefix(t Type, prefix string, v ...interface{}) {$/;"	f	struct:log.logger
+logf	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) logf(t Type, format string, v ...interface{}) {$/;"	f	struct:log.logger
+logfWithPrefix	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) logfWithPrefix(t Type, format string, prefix string, v ...interface{}) {$/;"	f	struct:log.logger
+logger	vendor/github.com/fagongzi/log/log.go	/^type logger struct {$/;"	s	package:log
+main	client/main.go	/^func main() {$/;"	f	package:main
+main	client/main.go	/^package main$/;"	p
+new	vendor/github.com/fagongzi/log/log.go	/^func new() *logger {$/;"	f	package:log	typeref:typename:*logger
+newLogger	vendor/github.com/fagongzi/log/log.go	/^func newLogger(w io.Writer, prefix string) *logger {$/;"	f	package:log	typeref:typename:*logger
+prefix	vendor/github.com/fagongzi/log/log_prefix.go	/^	prefix string$/;"	m	struct:log.prefixLoggerWrapper	typeref:typename:string
+prefixLoggerWrapper	vendor/github.com/fagongzi/log/log_prefix.go	/^type prefixLoggerWrapper struct {$/;"	s	package:log
+procSetStdHandle	vendor/github.com/fagongzi/log/crash_win.go	/^	procSetStdHandle = kernel32.MustFindProc("SetStdHandle")$/;"	v	package:log
+removeLogs	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) removeLogs() error {$/;"	f	struct:log.logger	typeref:typename:error
+rotate	vendor/github.com/fagongzi/log/log.go	/^func (l *logger) rotate() error {$/;"	f	struct:log.logger	typeref:typename:error
+setStdHandle	vendor/github.com/fagongzi/log/crash_win.go	/^func setStdHandle(stdhandle int32, handle syscall.Handle) error {$/;"	f	package:log	typeref:typename:error
+stringToLogLevel	vendor/github.com/fagongzi/log/log.go	/^func stringToLogLevel(level string) Level {$/;"	f	package:log	typeref:typename:Level
+warnLevel	vendor/github.com/fagongzi/log/log.go	/^	warnLevel  = Type(0x4)$/;"	c	package:log
